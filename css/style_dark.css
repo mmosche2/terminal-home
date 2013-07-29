@@ -1,0 +1,25 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+input[type="text"].input_field{
+  /*background-color: #333;
+  color: #fff;*/
+  color: #63de00!important;
+  background-color: #000;
+  font-family: Andale Mono, monospace;
+  line-height: 1.5;
+}
+
+.response{
+  color:#ddd;
+}
+
+#Terminal {
+  margin-top:40px;
+  margin-bottom:40px;
+  background: #000;
+  line-height: 1.5;
+  font-family: Andale Mono, monospace;
+}

@@ -1,0 +1,14 @@
+body {
+	background: #fdd;
+}
+
+input[type="text"].input_field{
+	background: #fdd;
+}
+
+.response{
+}
+
+span.input_symbol{
+	color: #F00;
+}

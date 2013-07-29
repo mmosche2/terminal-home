@@ -1,0 +1,205 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  font: 13.34px helvetica, arial, clean, sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  color:#555;
+  font:"HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 200;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+h1{
+  font-weight: 200;
+}
+h2{
+  font-size: 24px;
+  color: #0088CC;
+  font-weight: 200;
+  margin: 20px 0px -10px;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #0088CC;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00aaee;
+}
+
+img {
+  max-width: 40em;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+ul {
+  list-style-type:none;
+  margin:0px;
+}
+
+.quote {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: normal;
+  margin-left: 20px;
+}
+.clear{ clear: both; }
+
+
+.fade {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+.weighted{ font-weight: 800; }
+.nomargin{ margin: 0px; }
+.italic{ font-style: italic; }
+.lead.small{
+  font-size: 16px;
+}
+.lead.smaller{
+  font-size: 14px;
+}
+.lead.smallerer{
+  font-size:11px;
+}
+.lead.smallest{
+  font-size: 11px;
+  font-style: italic;
+}
+.lead{
+  font-size: 20px;
+  font-weight: 200;
+}
+.lead.large{
+  font-size: 28px;
+}
+.lead.larger{
+  font-size: 38px;
+}
+.lead.largest{
+  font-size: 48px;
+}
+
+.right {
+  float: right;
+}
+
+.highlight{
+  color: #CC8800;
+}
+
+
+input[type="text"].input_field{
+  border:none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow:none;
+  box-shadow: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  position:absolute;
+  margin-top: -2px;
+  font-family: 200;
+  display: inline;
+}
+
+.input_symbol{
+}
+
+.response{
+  color:#777;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+
+  /* terminal */
+
+.container{
+}
+#Terminal {
+  margin-top:20px;
+  margin-bottom:40px;
+}
+
+#SideBar {
+  position:fixed;
+  right:20px;
+  margin: 0 auto;
+  padding: 0;
+  width: 200px;
+  margin-top:20px;
+  margin-bottom:40px;
+}
+  #SideBar p{
+    line-height: 1.4;
+  }
+
+h4 {
+  color: #cd0000;
+  font-size: 28px;
+  letter-spacing: -2px;
+  text-align: left;
+}
+.list {
+  color: #555;
+  background-color: #f5f5f5;
+  font-size: 12px;
+  padding: 0 !important;
+  width: 200px;
+  font-family: courier, monospace;
+  border: 1px solid #dedede;
+}
+.list li {
+  list-style: none;
+  border-bottom: 1px dotted #ccc;
+  text-indent: 10px;
+  height: auto;
+  padding: 5px;
+}
+.list li:hover {
+  background-color: #f0f0f0;
+  -webkit-transition: all 0.2s;
+  -moz-transition:    all 0.2s;
+  -ms-transition:     all 0.2s;
+  -o-transition:      all 0.2s;
+  cursor: pointer;
+}
+.lines {
+  border-left: 1px solid #ffaa9f;
+  border-right: 1px solid #ffaa9f;
+  width: 2px;
+  float: left;
+  height: 310px;
+  margin-left: 15px;
+}
